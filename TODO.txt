@@ -1,0 +1,13 @@
+[DONE] clear youtube link after successful download
+[DONE] auto select url input after download
+[DONE] remove unused options in the downloader   (now MP3-only: Video/Playlist tabs and local-file extract removed)
+[DONE] adjust text / small window               (compact layout + errors now shown as popups)
+[DONE] only allow a single download song with a valid link   (validates YouTube video link, playlists rejected, noplaylist)
+[DONE] show name of song that was downloaded
+[DONE] remove error / success message after typing/pasting a new url
+[DONE] create exe for easier startup            (run build_exe.bat -> dist\YT-Downloader.exe)
+[DONE] duplicate song check                      (asks Yes/No to overwrite if the MP3 already exists)
+
+Notes:
+- MP3 conversion needs ffmpeg. Put ffmpeg.exe next to build_exe.bat before building,
+  or have ffmpeg on your PATH, or drop ffmpeg.exe next to dist\YT-Downloader.exe.
